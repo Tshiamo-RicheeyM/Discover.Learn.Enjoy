@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; /* Change font if needed */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Edit background color */
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0077b6; /* Change header background color */
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    /* Replace text with an image if needed */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    /* Edit background image in HTML */
+}
+
+.search-bar {
+    margin-top: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 60%;
+    border-radius: 20px;
+    border: none;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #023e8a; /* Edit button color */
+    color: white;
+    cursor: pointer;
+}
+
+/* Content Section */
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Edit card colors */
+.web-design {
+    background-color: #caf0f8;
+}
+
+.finance {
+    background-color: #ade8f4;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #0077b6; /* Change button color */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
