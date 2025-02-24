@@ -1,0 +1,50 @@
+
+
+#Heading{
+    text-align: center;
+}
+
+.Topics{
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the items */
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+
+}
+
+
+a{
+    color: #000;
+    text-decoration: none;/*remove text decoration*/
+    margin: 0 10px;
+    text-align: center;
+}
+
+a:hover{
+    color: rgb(82, 195, 233);/*change color on hover*/
+    text-decoration: underline;
+}
+
+.container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Space out the forms evenly */
+    align-items: flex-start; /* Align items at the start */
+    flex-wrap: wrap; /* Allow wrapping to the next line if necessary */
+    padding: 20px; /* Optional: Add some padding around the container */
+}
+
+form {
+    border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+    padding: 10px; /* Optional: Add padding inside each form */
+    margin: 10px; /* Optional: Add margin between forms */
+    width: 200px; /* Set a fixed width for each form */
+    text-align: center; /* Center text inside the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+}
+
+img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
