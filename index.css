@@ -19,7 +19,7 @@ header {
 .logo {
     font-size: 24px;
     font-weight: bold;
-    /* Replace text with an image if needed */
+    
 }
 
 nav ul {
@@ -45,7 +45,7 @@ nav ul li a {
     color: white;
     background-size: cover;
     background-position: center;
-    /* Edit background image in HTML */
+    
 }
 
 .search-bar {
@@ -63,7 +63,7 @@ nav ul li a {
     padding: 10px 20px;
     border-radius: 20px;
     border: none;
-    background-color: #023e8a; /* Edit button color */
+    background-color: #8a4402; /* Edit button color */
     color: white;
     cursor: pointer;
 }
