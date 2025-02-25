@@ -48,6 +48,11 @@ img {
     height: auto; /* Maintain aspect ratio */
 }
 
+.background{
+    background-image: url(IMG/istockphoto-1255861967-1024x1024.jpg);
+    
+}
+
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
